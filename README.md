@@ -1,16 +1,15 @@
-# resnet
+# 📸 Aplicación de Reconocimiento de Objetos con Flutter
 
-A new Flutter project.
+## 📝 Descripción
+Esta es una aplicación móvil desarrollada en Flutter que utiliza la cámara del dispositivo para identificar objetos en tiempo real. Puedes capturar una foto directamente o seleccionar una imagen de la galería, y la aplicación te dirá qué objeto es o a qué se asemeja más. Es ideal para tareas de reconocimiento rápido de objetos.
+## 🌟 Características
+* Captura de Imágenes usando la cámara integrada del dispositivo.
+* Selección de Imágenes desde la galería.
+* __Predicción en Tiempo Real:__ Basada en un modelo de aprendizaje automático, la aplicación sugiere el nombre del objeto o el objeto más parecido.
+* Interfaz intuitiva y fácil de usar.
+* __Soporte multiplataforma:__ Compatible con Android, iOS, y otras plataformas soportadas por Flutter.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Paquetes y Librerías Utilizadas
+* __Camera:__ Para capturar fotos con la cámara del dispositivo.
+* __Image_picker:__ Para seleccionar imágenes desde la galería.
+* __Tensorflow_lite o tflite__ Para la predicción de objetos utilizando modelos pre-entrenados.
